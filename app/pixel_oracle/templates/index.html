@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Oracle</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Pixel Oracle</h1>
+        <form id="oracleForm">
+            <input type="text" id="question" placeholder="Type your question here..." required>
+            <select id="category" required>
+                <option value="" disabled selected>Select a category...</option>
+                <option value="Romance">Romance</option>
+                <option value="Wealth">Wealth</option>
+                <option value="Career">Career</option>
+            </select>
+            <button type="submit">Get Answer</button>
+        </form>
+        <div id="response"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
