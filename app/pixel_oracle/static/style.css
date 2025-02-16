@@ -1,0 +1,42 @@
+body {
+    background-color: #808080;
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    border: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#response {
+    margin-top: 20px;
+    font-size: 16px;
+}
